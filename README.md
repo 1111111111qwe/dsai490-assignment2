@@ -1,4 +1,4 @@
-# DSAI 490 – Assignment 2: Conditional Date Generation
+# DSAI 490 – Assignment 2
 
 
 ## Setup
