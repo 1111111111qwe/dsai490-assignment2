@@ -1,33 +1,5 @@
 # DSAI 490 – Assignment 2: Conditional Date Generation
 
-## Structure
-```
-repo/
-├── data/
-│   ├── data.txt
-│   └── example_input.txt
-├── model/
-│   ├── tokenizer.py          # shared vocab, condition encoding, date helpers
-│   ├── evaluate.py           # constraint satisfaction rate
-│   ├── predict.py            # inference entry point
-│   ├── cvae/
-│   │   ├── model.py          # CVAE architecture
-│   │   ├── train.py          # custom tf.GradientTape training
-│   │   └── weights/
-│   ├── cgan/
-│   │   ├── model.py          # Generator + Discriminator
-│   │   ├── train.py          # custom tf.GradientTape training
-│   │   └── weights/
-│   ├── seq2seq/
-│   │   ├── model.py          # LSTM encoder-decoder
-│   │   ├── train.py
-│   │   └── weights/
-│   └── transformer/
-│       ├── model.py          # multi-head attention encoder-decoder
-│       ├── train.py
-│       └── weights/
-└── environment.yml
-```
 
 ## Setup
 ```bash
